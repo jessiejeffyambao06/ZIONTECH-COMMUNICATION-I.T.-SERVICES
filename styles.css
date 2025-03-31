@@ -638,7 +638,7 @@ section {
 
 /*  SOLUTIONS SECTION */
 #solutions {
-    background: rgb(0, 0, 0);
+    background: white;
     text-align: center;
     height: auto;
     padding: 50px 20px; /* Added padding para hindi dikit */
@@ -656,7 +656,7 @@ section {
 /*  TITLE & DESCRIPTION */
 .solutions-container .misvistitle h1 {
     font-size: 2rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 800;
     margin-top: 20px;
 }
@@ -664,7 +664,7 @@ section {
 .solutions-container .misvistitle p {
     margin-bottom: 18px;
     margin-top: 13px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     font-weight: 400;
     max-width: 70%;
@@ -702,7 +702,7 @@ section {
 
 /*  SOLUTIONS CARD */
 .solutions-card {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     position: relative;
@@ -753,14 +753,14 @@ section {
 /*  CARD TITLES */
 .solutions-card h2 {
     font-size: 1.3rem;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 10px;
     font-weight: 800;
 }
 
 .solutions-card p {
     font-size: 1.1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     align-content: center;
     font-weight: 100;
 }
@@ -897,7 +897,7 @@ section {
 
 /*  MISSION VISION SECTION */
 #mission-vision {
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     text-align: center;
     height: auto;
     padding: 50px 20px;
@@ -931,10 +931,10 @@ section {
 .mivi-container .box {
     flex: 1;
     padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 5px 13px 20px rgba(0, 0, 0, 0.751);
+    border: 1px solid #000000;
+    box-shadow: 5px 13px 20px rgba(255, 255, 255, 0.751);
     text-align: center;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 10px;
     max-width: 400px;
     display: flex;
@@ -954,7 +954,7 @@ section {
     left: 0;
     width: 0%;
     height: 5px;
-    background: black;
+    background: rgb(255, 255, 255);
     transition: width 0.5s ease-in-out;
 }
 
