@@ -932,7 +932,7 @@ section {
     flex: 1;
     padding: 20px;
     border: 1px solid #000000;
-    box-shadow: 5px 13px 10px rgba(255, 255, 255, 0.751);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.751);
     text-align: center;
     background: rgb(0, 0, 0);
     border-radius: 10px;
