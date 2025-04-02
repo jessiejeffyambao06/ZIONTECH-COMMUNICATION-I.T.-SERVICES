@@ -306,14 +306,14 @@ section {
     justify-content: center;
 }
 
- .overlayuna {
+ /* .overlayuna {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     background: rgba(32, 37, 40, 0.4);
     backdrop-filter: none;
-} 
+}  */
 
 .company-overview-container .content {
     position: relative;
