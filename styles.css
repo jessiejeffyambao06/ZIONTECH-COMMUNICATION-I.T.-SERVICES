@@ -346,7 +346,7 @@ section {
 }
 
 .hero .about {
-    font-size: clamp(1.8rem, 10vw, 3rem);
+    font-size: clamp(1.8rem, 10vw, 2rem);
     text-shadow: 5px 5px 9px rgb(5, 5, 5);
     letter-spacing: 3px;
     font-weight: 800;
@@ -355,35 +355,35 @@ section {
 /*  DESKTOP VIEW (Default) */
 @media (min-width: 1025px) {
     .hero .about {
-        font-size: 4rem;
-        margin-top: 200px;
+        font-size: 2rem;
+        margin-top: 180px;
     }
 }
 
 /*  TABLET VIEW (iPads, Small Laptops) */
 @media (max-width: 1024px) {
     .hero .about {
-        font-size: 3rem;
+        font-size: 2rem;
         letter-spacing: 2px;
-        margin-top: 200px;
+        margin-top: 180px;
     }
 }
 
 /*  MOBILE VIEW: iPhone (414px and below) */
 @media (max-width: 414px) {
     .hero .about {
-        font-size: 2.5rem;
+        font-size: 2rem;
         letter-spacing: 2px;
-        margin-top: 200px;
+        margin-top: 180px;
     }
 }
 
 /*  MOBILE VIEW: Android (480px and below) */
 @media (max-width: 480px) {
     .hero .about {
-        font-size: 2.8rem;
+        font-size: 2rem;
         letter-spacing: 2.5px;
-        margin-top: 210px;
+        margin-top: 180px;
     }
 }
 
