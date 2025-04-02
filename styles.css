@@ -346,13 +346,13 @@ section {
     transform: translateY(0);
 }
 
-.hero .about {
+/* .hero .about {
     font-size: clamp(1.8rem, 10vw, 2rem);
     text-shadow: 5px 5px 9px rgb(5, 5, 5);
     letter-spacing: 3px;
     font-weight: 800;
     margin-top: 50px;
-}
+} */
 
 /*  DESKTOP VIEW (Default) */
 @media (min-width: 1025px) {
