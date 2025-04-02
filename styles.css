@@ -352,6 +352,7 @@ section {
     letter-spacing: 3px;
     font-weight: 800;
     margin-top: 300px;
+    align-items: start;
 }
 
 /*  DESKTOP VIEW (Default) */
