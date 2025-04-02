@@ -913,6 +913,7 @@ section {
     align-items: stretch; /* Pantay na height */
     margin: 0 auto;
     flex-wrap: wrap;
+    margin-bottom: 20px; /* Added margin bago lang */
 
     /*  Initial State */
     opacity: 0;
@@ -1327,6 +1328,7 @@ section {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Animations */
