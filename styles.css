@@ -1327,8 +1327,8 @@ section {
 /* Profile Images */
 .feedback-author1 img,
 .feedback-author2 img {
-    width: 200px;
-    height: 60px;
+    max-width: 205px;
+    max-height: 60px;
     border-radius: 5%;
     object-fit: cover;
     border: 2px solid #ddd;
