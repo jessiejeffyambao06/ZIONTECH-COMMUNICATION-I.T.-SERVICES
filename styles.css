@@ -1286,7 +1286,6 @@ section {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
-    transition: transform 0.3s ease-in-out;
     position: relative;
 }
 
