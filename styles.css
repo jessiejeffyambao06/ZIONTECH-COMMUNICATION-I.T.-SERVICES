@@ -1220,7 +1220,7 @@ section {
 
 
 /* CLIENT SAYS */
-/*  General Styles */
+/* General Styles */
 .feedback-section {
     background-color: #ffffff;
     padding: 50px 20px;
@@ -1251,32 +1251,13 @@ section {
     margin: auto;
 }
 
-.feedback-card1:hover {
-    transform: scale(1.05);
-}
-
-/*  BORDER ANIMATION */
-.feedback-card1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 5px;
-    background: rgb(0, 0, 0);
-    transition: width 0.5s ease-in-out;
-}
-
-.feedback-card1:hover::before {
-    width: 100%;
-}
-
-
+.feedback-card1:hover, 
 .feedback-card2:hover {
     transform: scale(1.05);
 }
 
-/*  BORDER ANIMATION */
+/* Border Animation */
+.feedback-card1::before, 
 .feedback-card2::before {
     content: "";
     position: absolute;
@@ -1288,16 +1269,12 @@ section {
     transition: width 0.5s ease-in-out;
 }
 
+.feedback-card1:hover::before, 
 .feedback-card2:hover::before {
     width: 100%;
 }
 
-
-
-
-
-
-/*  Style for Feedback Cards */
+/* Style for Feedback Cards */
 .feedback-card1, 
 .feedback-card2 {
     background: #f8f8f8;
@@ -1310,6 +1287,7 @@ section {
     transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
     transition: transform 0.3s ease-in-out;
+    position: relative;
 }
 
 /* Animations */
@@ -1319,7 +1297,7 @@ section {
     transform: translateY(0);
 }
 
-/*  Style for Feedback Text */
+/* Style for Feedback Text */
 .feedback-text1,
 .feedback-text2 {
     font-size: 1.1rem;
@@ -1336,15 +1314,27 @@ section {
     transform: translateX(0);
 }
 
-/*  Author Section */
+/* Author Section */
 .feedback-author1,
 .feedback-author2 {
     display: flex;
     align-items: center;
     margin-top: 15px;
     justify-content: center;
+    gap: 15px;
 }
 
+/* Profile Images */
+.feedback-author1 img,
+.feedback-author2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+/* Author Text */
 .feedback-author1 h4,
 .feedback-author2 h4 {
     margin: 0;
