@@ -347,17 +347,12 @@ section {
 }
 
 .hero .about {
-    font-size: clamp(2rem, 8vw, 4.5rem); /* More refined scaling */
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); /* Softer and more natural shadow */
-    letter-spacing: 2px; /* Slightly tighter spacing for readability */
+    font-size: clamp(1.8rem, 10vw, 5rem);
+    text-shadow: 5px 5px 9px rgb(5, 5, 5);
+    letter-spacing: 3px;
     font-weight: 800;
-    margin-top: 280px; /* Adjusted for better positioning */
-    display: flex;
-    justify-content: center; /* Ensures text stays centered */
-    text-align: center;
-    transform: rotate(-10deg); /* Slight rotation for a crown-like arc */
+    margin-top: 300px;
 }
-
 
 /*  DESKTOP VIEW (Default) */
 @media (min-width: 1025px) {
