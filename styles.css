@@ -1269,7 +1269,7 @@ section {
     margin: auto;
 }
 
-.feedback-container:hover {
+.feedback-card1:hover {
     transform: scale(1.05);
 }
 
@@ -1288,6 +1288,32 @@ section {
 .feedback-card1:hover::before {
     width: 100%;
 }
+
+
+.feedback-card2:hover {
+    transform: scale(1.05);
+}
+
+/*  BORDER ANIMATION */
+.feedback-card2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    transition: width 0.5s ease-in-out;
+}
+
+.feedback-card2:hover::before {
+    width: 100%;
+}
+
+
+
+
+
 
 /*  Style for Feedback Cards */
 .feedback-card1, 
