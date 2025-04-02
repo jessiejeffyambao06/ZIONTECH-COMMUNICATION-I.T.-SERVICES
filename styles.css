@@ -335,7 +335,7 @@ section {
 
 /*  HERO SECTION */
 .hero {
-    text-align: start;
+    text-align: center;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -351,7 +351,7 @@ section {
     text-shadow: 5px 5px 9px rgb(5, 5, 5);
     letter-spacing: 3px;
     font-weight: 800;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 /*  DESKTOP VIEW (Default) */
