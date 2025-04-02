@@ -354,24 +354,11 @@ section {
     margin-top: 300px;
 }
 
-.hero .description {
-    font-size: clamp(1.8rem, 10vw, 2rem);
-    padding: 15px 30px;
-    display: inline;
-    letter-spacing: 1.5px;
-    font-weight: 600;
-    margin-bottom: 210px;
-}
-
 /*  DESKTOP VIEW (Default) */
 @media (min-width: 1025px) {
     .hero .about {
         font-size: 4rem;
         margin-top: 250px;
-    }
-
-    .hero .description {
-        font-size: 1.5rem;
     }
 }
 
@@ -382,12 +369,6 @@ section {
         letter-spacing: 2px;
         margin-top: 220px;
     }
-
-    .hero .description {
-        font-size: 1.2rem;
-        padding: 12px 25px;
-        margin-bottom: 180px;
-    }
 }
 
 /*  MOBILE VIEW: iPhone (414px and below) */
@@ -397,12 +378,6 @@ section {
         letter-spacing: 2px;
         margin-top: 200px;
     }
-
-    .hero .description {
-        font-size: 1rem;
-        padding: 10px 15px;
-        margin-bottom: 150px;
-    }
 }
 
 /*  MOBILE VIEW: Android (480px and below) */
@@ -411,12 +386,6 @@ section {
         font-size: 2.8rem;
         letter-spacing: 2.5px;
         margin-top: 210px;
-    }
-
-    .hero .description {
-        font-size: 1.1rem;
-        padding: 12px 18px;
-        margin-bottom: 160px;
     }
 }
 
