@@ -1273,6 +1273,22 @@ section {
     transform: scale(1.05);
 }
 
+/*  BORDER ANIMATION */
+.feedback-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: rgb(255, 255, 255);
+    transition: width 0.5s ease-in-out;
+}
+
+.feedback-container:hover::before {
+    width: 100%;
+}
+
 /*  Style for Feedback Cards */
 .feedback-card1, 
 .feedback-card2 {
