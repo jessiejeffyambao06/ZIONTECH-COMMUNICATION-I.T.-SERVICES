@@ -312,7 +312,7 @@ section {
     width: 100%;
     height: 100%;
     background: rgba(32, 37, 40, 0.85);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(.5px);
 }
 
 .company-overview-container .content {
