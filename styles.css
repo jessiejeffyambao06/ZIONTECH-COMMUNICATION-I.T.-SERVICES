@@ -306,14 +306,14 @@ section {
     justify-content: center;
 }
 
-/* .overlay {
+ .overlay {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     background: rgba(32, 37, 40, 0.85);
-    backdrop-filter: blur(.5px);
-} */
+    backdrop-filter: blur(.1px);
+} 
 
 .company-overview-container .content {
     position: relative;
@@ -335,7 +335,7 @@ section {
 
 /*  HERO SECTION */
 .hero {
-    text-align: center;
+    text-align: justify;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
