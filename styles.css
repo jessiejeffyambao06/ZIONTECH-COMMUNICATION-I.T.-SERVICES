@@ -913,7 +913,7 @@ section {
     align-items: stretch; /* Pantay na height */
     margin: 0 auto;
     flex-wrap: wrap;
-    margin-bottom: 30px; /* Added margin bago lang */
+    margin-bottom: 35px; /* Added margin bago lang */
 
     /*  Initial State */
     opacity: 0;
