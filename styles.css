@@ -1274,7 +1274,7 @@ section {
 }
 
 /*  BORDER ANIMATION */
-.feedback-card1, .feedback-card2::before {
+.feedback-card1::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1285,7 +1285,7 @@ section {
     transition: width 0.5s ease-in-out;
 }
 
-.feedback-card1, .feedback-card2:hover::before {
+.feedback-card1:hover::before {
     width: 100%;
 }
 
